@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 .superior {
-    background-color: #191c32;
-    color: #D1EED3;
+    background-color: #4A4B59;
+    color: #fff;
 }
 
 .nombre {
     position: relative;
     left: 60px;
+    padding: 55px;
 }
 
 .nombre span {
-    color:aqua
+    color: #24CDC8;
 }
 
 .superior img {
@@ -22,6 +23,7 @@
     height: 455px;
     position: relative;
     left: 150px;
+    border-radius: 15px;
 }
 
 .main {
@@ -30,19 +32,82 @@
     height: 400px;
     margin-right: 200px;
     margin-top: -400px;
+    color: #fff;
+}
+
+.main span {
+    color: #24CDC8;
 }
 
 .habilidades{
-    background-color: #191c32;
-    padding: 100px;
+    background-color: #4A4B59;
+    padding: 10px;
     width: 100vw;
 }
 
 .title h2 {
-    color: #D1EED3;
+    color: #fff;
     font-size: 40px;
     width: 1130px;
     margin: 20px auto;
     text-align: center;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.contenido {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191c32;
+    border-radius: 20px;
+    margin: 18px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contenido i {
+    font-size: 50px;
+    font-display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #191c32;
+}
+
+h5 {
+    color: #24CDC8;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #D1EED3;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.contenido .button {
+    background-color: #4A4B59;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contenido .button:hover {
+    background-color: #4A4B59;
+    border: 3px solid #4A4B59;
+    cursor: pointer;
 }
     
