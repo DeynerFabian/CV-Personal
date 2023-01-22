@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.superior {
+    background-color: #191c32;
+    color: #D1EED3;
+}
+
+.nombre {
+    position: relative;
+    left: 60px;
+}
+
+.nombre span {
+    color:aqua
+}
+
+.superior img {
+    width: 305px;
+    height: 455px;
+    position: relative;
+    left: 150px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 550px;
+    height: 400px;
+    margin-right: 200px;
+    margin-top: -400px;
+}
+
+.habilidades{
+    background-color: #191c32;
+    padding: 100px;
+    width: 100vw;
+}
+
+.title h2 {
+    color: #D1EED3;
+    font-size: 40px;
+    width: 1130px;
+    margin: 20px auto;
+    text-align: center;
+}
+    
