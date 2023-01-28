@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Deyner Fabian Serrano', sans-serif;
 }
 .superior {
     background-color: #4A4B59;
@@ -10,8 +11,13 @@
 
 .nombre {
     position: relative;
-    left: 60px;
+    left: 165px;
     padding: 55px;
+}
+
+h3{
+    color: #191c32;
+    font-size: 25px;
 }
 
 .nombre span {
@@ -19,10 +25,10 @@
 }
 
 .superior img {
-    width: 305px;
-    height: 455px;
+    width: 330px;
+    height: 475px;
     position: relative;
-    left: 150px;
+    left: 225px;
     border-radius: 15px;
 }
 
@@ -33,11 +39,27 @@
     margin-right: 200px;
     margin-top: -400px;
     color: #fff;
+
+}
+
+.main h2 {
+    font-size: 30px;
+    position: relative;
+    left: -20px;
+}
+
+.main p {
+    position: relative;
+    left: -20px;
+    font-size: 20px;
+    justify-content: center;
 }
 
 .main span {
     color: #24CDC8;
 }
+
+
 
 .habilidades{
     background-color: #4A4B59;
@@ -82,7 +104,7 @@
 }
 
 h5 {
-    color: #24CDC8;
+    color: #24CDC8;   /*no hace nada porque seria para el logo de las habilidades*/
     font-size: 23px;
     margin-bottom: 15px;
 }
@@ -110,4 +132,77 @@ h5 {
     border: 3px solid #4A4B59;
     cursor: pointer;
 }
-    
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #4A4B59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer p:nth-child(2) {
+    font-size: 22px;
+    color: #fff;
+    width: 800px;
+    text-align: center;
+    line-height: 26px;
+
+}
+
+
+
+
+
+
+.contacto{
+    background-color: #4A4B59;
+    padding: 10px;
+    width: 100vw;
+}
+
+.titulos h2 {
+    color: #fff;
+    font-size: 40px;
+    width: 1130px;
+    margin: 2px auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cajas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoslogos {
+    height: 265px;
+    width: 300px;
+    padding-top: 70px;
+    margin: 1px;
+    position: relative;
+    text-align: center;
+}
+
+.pr p {
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
