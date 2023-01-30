@@ -2,27 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Deyner Fabian Serrano', sans-serif;
+    font-family: sans-serif
 }
 .superior {
-    background-color: #4A4B59;
-    color: #fff;
+    height: 100vh;
+    width: 100%;
+    background-color: #0B1727;
+    background-size: cover;
+    background-position: center;
 }
 
 .nombre {
     position: relative;
     left: 165px;
     padding: 55px;
-}
-
-h3{
-    color: #191c32;
-    font-size: 25px;
+    color: #fff;
 }
 
 .nombre span {
     color: #24CDC8;
 }
+
+.superior h2 {
+    color: #fff
+}
+
+.superior h2:hover{
+    color: #24CDC8;
+    transition: .4s;
+}
+
+h3 { 
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
 
 .superior img {
     width: 330px;
@@ -30,6 +46,7 @@ h3{
     position: relative;
     left: 225px;
     border-radius: 15px;
+    box-shadow: 5px 8px 12px #4A4B59
 }
 
 .main {
@@ -39,7 +56,10 @@ h3{
     margin-right: 200px;
     margin-top: -400px;
     color: #fff;
+}
 
+.main span {
+    color: #24CDC8;
 }
 
 .main h2 {
@@ -48,27 +68,26 @@ h3{
     left: -20px;
 }
 
+
 .main p {
     position: relative;
     left: -20px;
     font-size: 20px;
     justify-content: center;
-}
-
-.main span {
-    color: #24CDC8;
+    color: #D1EED3;
 }
 
 
 
+------------------------------------------------------
 .habilidades{
-    background-color: #4A4B59;
-    padding: 10px;
-    width: 100vw;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #4A4B59;   
 }
 
 .title h2 {
-    color: #fff;
+    color: rgb(236, 8, 8);
     font-size: 40px;
     width: 1130px;
     margin: 20px auto;
@@ -79,33 +98,35 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 100px;
+    padding-block: 50px;
 
 }
 
 .contenido {
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
-    background-color: #191c32;
+    height: 360px;
+    width: 300px;
+    padding: 20px 30px;
+    background-color: #191c32;  /*creo que esto estaria de mas  */
     border-radius: 20px;
-    margin: 18px;
+    margin: 36px;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-.contenido i {
+.contenido i{
     font-size: 50px;
-    font-display: block;
+    display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #191c32;
+    color: #fff;
+
 }
 
+
 h5 {
-    color: #24CDC8;   /*no hace nada porque seria para el logo de las habilidades*/
-    font-size: 23px;
+    color: #24CDC8;  
     margin-bottom: 15px;
 }
 
@@ -133,27 +154,9 @@ h5 {
     cursor: pointer;
 }
 
-footer {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background-color: #4A4B59;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
-footer p:nth-child(2) {
-    font-size: 22px;
-    color: #fff;
-    width: 800px;
-    text-align: center;
-    line-height: 26px;
-
-}
 
 
 
@@ -162,46 +165,45 @@ footer p:nth-child(2) {
 
 .contacto{
     background-color: #4A4B59;
-    padding: 10px;
-    width: 100vw;
+    width: 100%;
+    padding: 100px 0px;
 }
 
-.titulos h2 {
-    color: #fff;
-    font-size: 40px;
-    width: 1130px;
-    margin: 2px auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.cajas {
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 400px;
 }
 
-.contenidoslogos {
-    height: 265px;
-    width: 300px;
-    padding-top: 70px;
-    margin: 1px;
+.card {
+    height: 165px;
+    width: 275px;
+    padding: 20px 35px ;
+
+    background: #4A4B59;
+    border-radius: 20px;
+
+    margin: 10px;
     position: relative;
+    overflow: hidden;
     text-align: center;
+
 }
 
-.pr p {
+.card i {
+   font-size: 50px;
+   display: block;
+   text-align: center;
+   margin: 25px 0px;
+   color: #24CDC8;
+}
+
+h5{
     color: #fff;
-    font-size: 25px;
-    line-height: 25px;
-    padding-top: 100px;
+    font-size: 23px;
+
 }
-
-
-
-
-
-
 
 
 
