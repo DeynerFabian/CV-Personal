@@ -33,7 +33,7 @@
 }
 
 h3 { 
-    color: #fff;
+    color: #BFDBFC;
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -66,14 +66,16 @@ h3 {
     font-size: 30px;
     position: relative;
     left: -20px;
+    top: -70px;
 }
 
 .main p {
     position: relative;
     left: -20px;
+    top: -50px;
     font-size: 20px;
     justify-content: center;
-    color: #D1EED3;
+    color: #BFDBFC;
 }
 
 
@@ -108,6 +110,7 @@ h3 {
     padding: 20px 30px;
     background-color: #4A4B59;
     border-radius: 20px;
+    border: 1px solid #24CDC8;
     margin: 36px;
     position: relative;
     overflow: hidden;
@@ -124,12 +127,11 @@ h3 {
 
 .contenido h5 {
     color: #fff;
-    font-size: 25px;  
-    margin-bottom: 15px;
+    font-size: 22px;  
 }
 
 .pra p {
-    color: #D1EED3;
+    color: #BFDBFC;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -225,6 +227,12 @@ footer {
     height: 0px;
     top: -200px;
 }
+
+footer span:hover{
+    color: #fff;
+    transition: .4s;
+}
+
 
 
 
