@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+.superior {
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    background-size: cover;
+    background-position: center;
+}
+
+.nombre {
+    position: relative;
+    left: 165px;
+    padding: 55px;
+    color: #fff;
+}
+
+.nombre span {
+    color: #24CDC8;
+}
+
+.superior h2 {
+    color: #fff
+}
+
+.superior h2:hover{
+    color: #24CDC8;
+    transition: .4s;
+}
+
+
+.superior img {
+    width: 330px;
+    height: 475px;
+    position: relative;
+    left: 225px;
+    border-radius: 15px;
+    box-shadow: 5px 8px 12px #4A4B59
+}
+
+
+
+.main {
+    margin: 0 auto;
+    width: 550px;
+    height: 400px;
+    margin-right: 200px;
+    margin-top: -500px;
+    color: #fff;
+}
+
+.main span {
+    color: #24CDC8;
+}
+
+.main h2 {
+    font-size: 30px;
+    position: relative;
+    left: -20px;
+    top: -70px;
+}
+
+.main p {
+    position: relative;
+    left: -20px;
+    top: -50px;
+    font-size: 20px;
+    justify-content: center;
+    color: #BFDBFC;
+}
+
+
+
+.habilidades{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.title h2 {
+    color: #fff;
+    font-size: 40px;
+    width: 1130px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding-block: 50px;
+}
+
+
+
+.contenido {
+    height: 360px;
+    width: 300px;
+    padding: 20px 30px;
+    background-color: #4A4B59;
+    border-radius: 20px;
+    border: 1px solid #24CDC8;
+    margin: 36px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contenido i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #24CDC8;
+}
+
+.contenido h5 {
+    color: #fff;
+    font-size: 22px;  
+}
+
+.pra p {
+    color: #BFDBFC;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.contenido .button {
+    background-color: #24CDC8; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contenido .button:hover {
+    background-color: #0B1727;
+    border: 2px solid #24CDC8;
+    cursor: pointer;
+}
+
+
+
+.contacto{
+    background-color:  #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.titulos h2 {
+    color: #fff;
+    font-size: 40px;
+    width: 1130px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 50px;
+    width: 275px;
+    padding: 10px 35px ;
+    margin: 10px;
+    position: relative;
+    top: -250px;
+    text-align: center;
+}
+
+.card a {
+    position: relative;
+    left: 55px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #24CDC8;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.card a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.card p {
+    color: #D1EED3;
+    font-size: 19px;
+    line-height: 45px;
+}
+
+
+footer {
+    color: #24CDC8;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    height: 0px;
+    top: -200px;
+}
+
+footer span:hover{
+    color: #fff;
+    transition: .4s;
+}
+
+
+
+
+
